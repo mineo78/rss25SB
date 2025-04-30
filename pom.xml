@@ -56,6 +56,21 @@
             <artifactId>jaxb-runtime</artifactId>
             <version>3.0.1</version> <!-- ✅ même version que l'API -->
         </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-data-jpa</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.postgresql</groupId>
+            <artifactId>postgresql</artifactId>
+            <version>42.7.3</version>
+        </dependency>
+
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-data-jpa</artifactId>
+        </dependency>
     </dependencies>
 
     <build>
@@ -68,7 +83,7 @@
         <finalName>rss25server</finalName>
         <resources>
             <resource>
-                <directory>src/main/resources3</directory>
+                <directory>src/main/resources</directory>
             </resource>
         </resources>
     </build>
